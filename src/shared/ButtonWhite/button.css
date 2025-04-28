@@ -1,0 +1,17 @@
+.button-white {
+  font-family: "Sora", sans-serif;
+  background: #fefefe;
+  color: #022183;
+  width: 180px;
+  padding: 12px;
+  border-radius: 31px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button-white:hover {
+  background: #022183;
+  color: white;
+}

@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-height: 100vh;
+  background: linear-gradient(
+    200deg,
+    #d0cbfc 15%,
+    /* light purple */ #8bd3fd 20%,
+    /* light blue */ #3367e3 45%,
+    /* medium blue */ #081dbb 60%,
+    /* deep blue */ #000000 100% /* black */
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Sora", sans-serif;
+}
