@@ -20,3 +20,5 @@ This project is a **responsive Career Services landing page**, built with **Reac
 | **Ant Design (antd)** | Optional for advanced UI components | `npm install antd` |
 
 ---
+
+├── public/ │ └── assets/ (images, logos, icons) ├── src/ │ ├── components/ │ │ ├── HeroSection.jsx │ │ ├── HowWeWork.jsx │ │ ├── AboutUs.jsx │ │ ├── WhyChooseUs.jsx │ │ ├── PricingSection.jsx │ ├── App.jsx │ ├── main.jsx │ └── index.css ├── README.md └── package.json
