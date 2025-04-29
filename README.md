@@ -1,12 +1,66 @@
-# React + Vite
+This project is a **responsive Career Services landing page**, built with **React.js**, styled with **CSS**, and enhanced with **scroll animations** and **UI libraries** for a professional feel.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🛠️ Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React.js** (Vite setup)
+- **CSS3** (Custom styling)
+- **HTML5** (JSX)
+- **Responsive Web Design** (Mobile-first)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📚 Libraries Used
+
+| Library | Purpose | Install Command |
+|:--------|:--------|:----------------|
+| **react-icons** | For icons like LinkedIn, arrows, etc. | `npm install react-icons` |
+| **AOS (Animate On Scroll)** | For scroll animations | `npm install aos` |
+| **Ant Design (antd)** | Optional for advanced UI components | `npm install antd` |
+
+---
+
+
+## ✨ Features Implemented
+
+- **Hero Section**
+  - Gradient background
+  - Download eBook button with blur circle
+  - Centered Book icon inside the circle
+
+- **How We Work Section**
+  - Visual cards with step numbers inside circles
+  - Line extending **only from the right** of circles
+  - Scroll animations with **AOS**
+
+- **About Us Section**
+  - Left-aligned "About Us" heading
+  - Profile cards with LinkedIn (`in`) icons inside small circles
+  - Scroll animations for entry
+
+- **Why Choose Us Section**
+  - Three interactive highlight cards
+  - Hover animation (lift on hover)
+
+- **Pricing Section**
+  - Free vs Paid plan comparison
+  - "Start Now" buttons with hover effect
+
+- **Animations**
+  - Scroll reveal animations using **AOS**
+  - Smooth hover and transition effects
+
+---
+## Get started
+<code>cd mobuisEngineAI</code>
+<hr/>
+<code>Npm install</code>
+<code>Npm run dev</code> <h2>To start the server</h2>
+## 🚀 Libraries
+
+<code>function App() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);</code>
+
