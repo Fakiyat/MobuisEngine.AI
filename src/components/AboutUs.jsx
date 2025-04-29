@@ -64,6 +64,30 @@ function AboutUs() {
           </p>
         </div>
       </div>
+      <div className="profile">
+        <div className="profile-image" data-aos="fade-up">
+          <img src="./profile-3.svg" alt="Myself" />
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="linkedin-icon"
+          >
+            in
+          </a>
+        </div>
+        <div className="profile-text" data-aos="fade-up" data-aos-delay="100">
+          <p>
+            <strong>Fakiyat Afaq </strong>
+          </p>
+          <p>
+            Frontend-Developer. Passionate and detail-oriented Frontend
+            Developer with experience in developing responsive, user-friendly
+            web applications. Proficient in HTML, CSS, JavaScript, and modern
+            frontend frameworks like React.Js.
+          </p>
+        </div>
+      </div>
 
       <div className="links" data-aos="fade-up" data-aos-delay="200">
         <a href="#">Learn more about our Board of Advisors ↗</a>

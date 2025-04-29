@@ -1,0 +1,133 @@
+/* ResumeCoaching.css */
+
+/* Global styles */
+.resume-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Header section */
+.header {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0649e7;
+  margin-bottom: 16px;
+}
+
+.header p {
+  font-size: 18px;
+  color: #0649e7;
+  margin: 8px 0;
+}
+
+.action-text {
+  color: #0649e7;
+  font-weight: 500;
+}
+
+/* Services container */
+.services-container {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+/* Service cards */
+.service-card {
+  flex: 1 1 400px;
+  border: 1px solid #0649e7;
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0649e7;
+  margin-bottom: 8px;
+}
+
+.description {
+  color: #0649e7;
+  margin-bottom: 24px;
+}
+
+/* Price section */
+.price {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 32px;
+}
+
+.amount {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0649e7;
+}
+
+.period {
+  margin-left: 8px;
+  color: #0649e7;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #0649e7;
+  margin-bottom: 24px;
+}
+
+/* Features list */
+.features {
+  margin-bottom: 32px;
+  flex-grow: 1;
+}
+
+.feature-item {
+  display: flex;
+  margin-bottom: 16px;
+  color: #0649e7;
+}
+
+.check-icon {
+  color: #2ecc71;
+  margin-right: 12px;
+  font-weight: bold;
+}
+
+/* Button */
+.get-started-btn {
+  background-color: #0649e7;
+  color: white;
+  border: none;
+  border-radius: 24px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background-color 0.2s;
+}
+
+.get-started-btn:hover {
+  background-color: #003d99;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .services-container {
+    flex-direction: column;
+  }
+
+  .service-card {
+    flex: 1 1 100%;
+  }
+}
