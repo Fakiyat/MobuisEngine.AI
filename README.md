@@ -56,8 +56,11 @@ This project is a **responsive Career Services landing page**, built with **Reac
 
 <code>cd mobuisEngineAI</code>
 ## 🚀 Libraries
+## To start the server
 <code>Npm install</code>
-<code>Npm run dev</code> <h2>To start the server</h2>
+## To start the server
+<code>Npm run dev</code> 
+## to install library for animation on scroll
 <code>npm install aos</code>
 
 
