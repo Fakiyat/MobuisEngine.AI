@@ -63,7 +63,7 @@ This project is a **responsive Career Services landing page**, built with **Reac
 ## to install library for animation on scroll
 <code>npm install aos</code>
 
-
+## Use of React hooks for animation
 <code>function App() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
