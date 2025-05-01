@@ -57,7 +57,7 @@ This project is a **responsive Career Services landing page**, built with **Reac
 <hr/>
 <code>Npm install</code>
 <code>Npm run dev</code> <h2>To start the server</h2>
-## 🚀 Libraries
+
 
 <code>function App() {
   useEffect(() => {
