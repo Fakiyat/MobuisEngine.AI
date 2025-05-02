@@ -53,7 +53,7 @@ This project is a **responsive Career Services landing page**, built with **Reac
   - Smooth hover and transition effects
 
 ---
-## Get started
+## How to run server
 
 <code>cd mobuisEngineAI</code>
 ## 🚀 Libraries
