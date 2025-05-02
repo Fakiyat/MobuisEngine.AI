@@ -61,7 +61,7 @@ This project is a **responsive Career Services landing page**, built with **Reac
 <code> npm install react-icon</code>
 <code>Npm install</code>
 <code>Npm install react-dom</code>
-<code>Npm install Ant</code>
+<code>Npm install Antd</code>
 
 ## To install library for animation on scroll
 <code>npm install aos</code>
