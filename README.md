@@ -58,7 +58,7 @@ This project is a **responsive Career Services landing page**, built with **Reac
 <code>cd mobuisEngineAI</code>
 <code>Npm run dev</code> 
 ## 🚀 Libraries
-
+<code> npm install react-icon</code>
 <code>Npm install</code>
 
 
